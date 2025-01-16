@@ -1,0 +1,87 @@
+/* Toolbar.css */
+
+/* Toolbar container */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    background-color: #b56576; /* Dirty pink background */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    height: 50px; /* Fixed height */
+    line-height: 50px; /* Ensure text elements align with the height */
+}
+
+/* Logo or Title */
+.toolbar-logo {
+    display: flex;
+    align-items: center; /* Center the title vertically */
+}
+
+.toolbar-logo h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Navigation Links */
+.toolbar-nav {
+    display: flex;
+    align-items: center; /* Center links vertically */
+    gap: 1.5rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.toolbar-nav button {
+    padding: 8px 16px !important; /* Override any inherited padding */
+    font-size: 14px !important;    /* Override inherited font size */
+    font-weight: 500;
+    color: #b56576;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    margin: 0; /* Remove any inherited margin */
+}
+
+.toolbar-nav button:hover {
+    background-color: #f5e1e1; /* Light pink */
+    color: #a04d63;
+}
+
+/* Action Buttons (e.g., Login, Sign Up) */
+.toolbar-actions {
+    display: flex;
+    align-items: center; /* Center buttons vertically */
+    gap: 1rem;
+}
+
+.toolbar-actions button {
+    padding: 8px 16px !important; /* Override any inherited padding */
+    font-size: 14px !important;    /* Override inherited font size */
+    font-weight: 500;
+    color: #b56576;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    margin: 0; /* Remove any inherited margin */
+}
+
+
+.toolbar-actions button:hover {
+    background-color: #f5e1e1; /* Light pink */
+    color: #a04d63;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .toolbar-nav {
+        display: none; /* Hide navigation on small screens */
+    }
+}

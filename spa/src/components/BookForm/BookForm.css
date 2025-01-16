@@ -1,0 +1,5 @@
+
+.new-room-button.selected {
+    background-color: #985fd3; /* Green for selected */
+    color: white;
+}

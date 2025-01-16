@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BookingHotel</string>
+    <string name="room_info">Room Size: %1$d | Price: %2$d PLN</string>
+    <string name="hotel_name">%1$s</string>
+    <string name="city_country">%1$s, %2$s</string>
+    <string name="date_range">Dates: %1$s - %2$s</string>
+    <string name="people_count">People: %1$d</string>
+</resources>

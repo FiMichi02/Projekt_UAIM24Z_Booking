@@ -1,0 +1,9 @@
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5e1e1;  /* Dirty pink background */
+    margin: 0 0 0;
+}

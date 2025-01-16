@@ -1,0 +1,116 @@
+/* Container for the SearchForm */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5e1e1; /* Same dirty pink background for consistency */
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; /* Ensure form doesn't stretch too wide */
+    padding: 2rem;
+    background: #ffffff;  /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    box-sizing: border-box;
+}
+
+/* Universal input styling to ensure consistency */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"] {
+    width: 100%; /* Ensure full width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e5c1c1;  /* Light pink border */
+    border-radius: 4px;
+    margin: 0.75rem 0;
+    box-sizing: border-box; /* Make sure padding and border are inside the width */
+    transition: border-color 0.2s ease;
+}
+
+/* Focus styles for inputs */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    border-color: #b56576; /* Darker pink on focus */
+    outline: none;
+}
+
+/* Flex container for adults and children inputs */
+.search-adults-children {
+    display: flex;
+    gap: 15px; /* Space between the two input groups */
+    width: 100%;
+}
+
+/* Style for the individual input groups (label + input) */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure each group takes up full width */
+}
+
+.input-group label {
+    margin-bottom: 0.5rem; /* Add space between label and input */
+    font-weight: bold; /* Make label text bold */
+    font-size: 14px; /* Slightly smaller font size for labels */
+}
+
+/* Date input styling */
+.search-date {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.search-date input {
+    width: 48%; /* Make sure inputs take up approximately 50% each */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e5c1c1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.search-date input:focus {
+    border-color: #b56576;
+    outline: none;
+}
+
+/* Container for the dropdowns */
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e5c1c1; /* Light pink border */
+    border-radius: 4px;
+    margin: 0.75rem 0;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+/* Focus styles for select elements */
+.input-group select:focus {
+    border-color: #b56576; /* Darker pink on focus */
+    outline: none;
+}
+
+/* Flex container for country and city dropdowns */
+.search-country-city {
+    display: flex;
+    gap: 15px; /* Space between the two dropdowns */
+    width: 100%;
+}
+
+/* Ensure that the individual dropdowns don't stretch too wide */
+.search-country-city .input-group {
+    flex: 1;
+}
+

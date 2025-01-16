@@ -1,0 +1,34 @@
+.table-container {
+    display: flex;
+    min-width: 1500px; /* Zwiększona minimalna szerokość */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5e1e1; /* Dirty pink background */
+}
+
+
+.ant-table {
+    width: 95%;
+    min-width: 1200px;
+    table-layout: fixed; /* Stała szerokość kolumn */
+}
+
+.ant-table-expanded-row {
+    background-color: #fbe9e9; /* Lżejszy róż */
+}
+
+.ant-table-expanded-row td {
+    overflow: hidden; /* Ukrycie nadmiarowej zawartości */
+    white-space: nowrap;
+    text-overflow: ellipsis; /* Przycinanie zawartości */
+}
+
+.row-button-container {
+    display: inline-flex;
+    justify-content: center; /* Poziome wyrównanie */
+    align-items: center;    /* Pionowe wyrównanie */
+}
+
+
+

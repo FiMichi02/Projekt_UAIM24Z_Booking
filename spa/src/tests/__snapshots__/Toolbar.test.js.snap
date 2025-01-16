@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar Component renders and matches snapshot 1`] = `
+<div>
+  <div
+    class="toolbar"
+  >
+    <div
+      class="toolbar-logo"
+    >
+      <h1>
+        Hotel Booking
+      </h1>
+    </div>
+    <div
+      class="toolbar-nav"
+    >
+      <button>
+        Home
+      </button>
+    </div>
+    <div
+      class="toolbar-actions"
+    >
+      <button>
+        Login
+      </button>
+      <button>
+        Sign Up
+      </button>
+    </div>
+  </div>
+</div>
+`;
